@@ -33,7 +33,7 @@ public class Pgcon06 {
 				// 1,2番目の合計値が棒の長さを超えたら終了
 				// または2番目の長さの次の要素が残りの数より小さかったら終了。
 				if ((L2 - list[k]) <= 0 || (L2 - list[k]) > list[k + 1]) {
-					continue;
+					break;
 				}
 				L3 = (L2 - list[k]);
 				// 3つ目の長さ
